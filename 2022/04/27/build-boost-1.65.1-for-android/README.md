@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-* Ubuntu server 18.04 LTS
+* Ubuntu server 18.04 LTS 64 bits
 
 ### Prepare
 
