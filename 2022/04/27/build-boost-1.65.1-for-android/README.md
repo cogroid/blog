@@ -4,6 +4,8 @@
 
 ### Prerequisites
 
+* 4GB RAM machine
+
 * Ubuntu server 18.04 LTS 64 bits
 
 ### Prepare
@@ -17,7 +19,7 @@ sudo apt install gcc-multilib
 
 sudo apt install g++-multilib
 
-export BOOST_DIR=/home/cogroid/d-boost
+export BOOST_DIR=/home/cogroid/wrk/d-boost
 
 mkdir -p ${BOOST_DIR}/tmp
 
@@ -29,7 +31,7 @@ unzip android-ndk-r18b-linux-x86_64.zip
 
 sudo mkdir -p /home/cogroid/local
 
-sudo cp ./android-ndk-r18b /home/cogroid/local/
+sudo cp -rf ./android-ndk-r18b /home/cogroid/local/
 
 sudo apt install clang
 ```
@@ -45,7 +47,7 @@ git clone https://github.com/cogroid/d-boost.git
 
 cd d-boost/make/armv7
 
-make
+make > build.log&
 ```
 
 ### Receive built files
