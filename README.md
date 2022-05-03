@@ -6,6 +6,8 @@
 
 ##### May 3, 2022
 
+* (3) [Build GNU MP 6.1.2 for Android](https://cogroid.com/blog/2022/05/03/build-libgmp-6.1.2-for-android)
+
 * (2) [Build libtool 2.4.6 for Android](https://cogroid.com/blog/2022/05/03/build-libtool-2.4.6-for-android)
 
 ### April 2022
