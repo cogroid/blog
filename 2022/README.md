@@ -2,6 +2,12 @@
 
 # Blog of 2022 year
 
+### May 2022
+
+##### May 3, 2022
+
+* (2) [Build libtool 2.4.6 for Android](https://cogroid.com/blog/2022/05/03/build-libtool-2.4.6-for-android)
+
 ### April 2022
 
 ##### April 27, 2022
