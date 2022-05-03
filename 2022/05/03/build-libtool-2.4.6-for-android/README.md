@@ -19,6 +19,8 @@ sudo apt install gcc-multilib
 
 sudo apt install g++-multilib
 
+sudo apt install help2man
+
 export TOOL_DIR=/home/cogroid/wrk/d-libtool
 
 mkdir -p ${TOOL_DIR}/tmp
