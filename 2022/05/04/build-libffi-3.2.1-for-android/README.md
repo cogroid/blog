@@ -19,7 +19,7 @@ sudo apt install gcc-multilib
 
 sudo apt install g++-multilib
 
-export FFI_DIR=/home/cogroid/wrk/d-libunistring
+export FFI_DIR=/home/cogroid/wrk/d-libffi
 
 mkdir -p ${FFI_DIR}/tmp
 
