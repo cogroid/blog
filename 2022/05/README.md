@@ -2,6 +2,10 @@
 
 # Blog of May 2022
 
+##### May 4, 2022
+
+* (5) [Build libffi 3.2.1 for Android](https://cogroid.com/blog/2022/05/04/build-libffi-3.2.1-for-android)
+
 ##### May 3, 2022
 
 * (4) [Build libunistring 0.9.9 for Android](https://cogroid.com/blog/2022/05/03/build-libunistring-0.9.9-for-android)
