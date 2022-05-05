@@ -4,6 +4,10 @@
 
 ### May 2022
 
+##### May 5, 2022
+
+* (6) [Build libatomic_ops 7.6.2 for Android](https://cogroid.com/blog/2022/05/05/build-libatomic_ops-7.6.2-for-android)
+
 ##### May 4, 2022
 
 * (5) [Build libffi 3.2.1 for Android](https://cogroid.com/blog/2022/05/04/build-libffi-3.2.1-for-android)
