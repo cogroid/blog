@@ -19,19 +19,11 @@ sudo apt install gcc-multilib
 
 sudo apt install g++-multilib
 
-sudo apt install flex
+export AO_DIR=/home/cogroid/wrk/d-libatomic_ops
 
-sudo apt install gdb
+mkdir -p ${AO_DIR}/tmp
 
-sudo apt install libiconv-hook-dev
-
-sudo apt install libunistring-dev
-
-export GUILE_DIR=/home/cogroid/wrk/d-guile
-
-mkdir -p ${GUILE_DIR}/tmp
-
-cd ${GUILE_DIR}/tmp
+cd ${AO_DIR}/tmp
 
 wget https://dl.google.com/android/repository/android-ndk-r18b-linux-x86_64.zip
 
@@ -47,29 +39,17 @@ sudo apt install clang
 ### Build for Android
 
 ```
-mkdir -p ${GUILE_DIR}/armv7
+mkdir -p ${AO_DIR}/armv7
 
-cd ${GUILE_DIR}/armv7
+cd ${AO_DIR}/armv7
 
-git clone https://github.com/cogroid/d-guile.git
+git clone https://github.com/cogroid/d-libatomic_ops.git
 
-cd d-guile/make/armv7
+cd d-libatomic_ops/make/armv7
 
 sudo apt update
 
-make > configure.log&
-```
-
-```
-sudo apt update
-
-make update_makefile
-```
-
-```
-sudo apt update
-
-make build > build.log&
+make > build.log&
 ```
 
 ```
@@ -81,7 +61,7 @@ make install
 ### Receive built files
 
 ```
-Built files are at /home/cogroid/local/guile/armv7
+Built files are at /home/cogroid/local/libatomic_ops/armv7
 ```
 
 ---
