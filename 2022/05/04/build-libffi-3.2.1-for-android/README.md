@@ -38,6 +38,12 @@ sudo apt install clang
 
 ### Build for Android
 
+Set APP_PKG to package name of your android app.
+
+```
+export APP_PKG=com.cogroid.atomspace.tester
+```
+
 ```
 mkdir -p ${FFI_DIR}/armv7
 
@@ -50,12 +56,6 @@ cd d-libffi/make/armv7
 sudo apt update
 
 make > configure.log&
-```
-
-```
-sudo apt update
-
-make update_makefile
 ```
 
 ```
