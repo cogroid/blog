@@ -46,7 +46,21 @@ cd ${GC_DIR}/armv7
 git clone https://github.com/cogroid/d-libgc.git
 
 cd d-libgc/make/armv7
+```
 
+Set APP_PKG to package name of your android app.
+
+```
+export APP_PKG=com.cogroid.atomspace.tester
+```
+
+Copy installed folder of libatomic_ops.
+
+```
+cp -rf ${INSTALLED_LIBATOMIC_OPS}/* ${GC_DIR}/armv7/d-libgc/make/armv7/libatomic_ops/
+```
+
+```
 sudo apt update
 
 make > configure.log&
