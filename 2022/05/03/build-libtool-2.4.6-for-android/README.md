@@ -40,6 +40,12 @@ sudo apt install clang
 
 ### Build for Android
 
+Set APP_PKG to package name of your android app.
+
+```
+export APP_PKG=com.cogroid.atomspace.tester
+```
+
 ```
 mkdir -p ${TOOL_DIR}/armv7
 
@@ -57,19 +63,7 @@ make > configure.log&
 ```
 sudo apt update
 
-make build > build-a.log&
-```
-
-```
-sudo apt update
-
-make update_makefile
-```
-
-```
-sudo apt update
-
-make build > build-b.log&
+make build > build.log&
 ```
 
 ```
