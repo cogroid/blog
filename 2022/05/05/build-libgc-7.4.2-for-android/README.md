@@ -69,12 +69,6 @@ make > configure.log&
 ```
 sudo apt update
 
-make update_makefile
-```
-
-```
-sudo apt update
-
 make build > build.log&
 ```
 
